@@ -15,7 +15,6 @@
     [handleSubmit]="onConfirmSignUp"
     slot="confirm-sign-up"
   >
-    <p v-if="seen">Now you see me</p>
   </amplify-confirm-sign-up>
 </template>
 
