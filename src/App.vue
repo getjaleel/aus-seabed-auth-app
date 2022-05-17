@@ -14,9 +14,8 @@
   <amplify-confirm-sign-up
     [handleSubmit]="onConfirmSignUp"
     slot="confirm-sign-up"
-    usernameAlias="email"
-    [formFields]="formFieldsAuthenticationCode"
   >
+    <p v-if="seen">Now you see me</p>
   </amplify-confirm-sign-up>
 </template>
 
