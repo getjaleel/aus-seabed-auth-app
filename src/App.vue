@@ -8,6 +8,7 @@
   >
     <template v-slot="{ user, signOut }">
       <h1>Hello {{ user.username }}!</h1>
+      <div><h1>You will recieve an email with link for instructions to follow</h1></div>
       <button @click="signOut">Sign Out</button>
     </template>
   </authenticator>
